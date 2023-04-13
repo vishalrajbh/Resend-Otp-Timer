@@ -1,4 +1,4 @@
-<script>
+
 let resendTimer = true;
 function timer(remaining){
     document.getElementById("resend").disabled = true;
@@ -22,4 +22,4 @@ function timer(remaining){
 	  document.getElementById("resend").innerHTML = "Resend OTP";
 }
 timer(180);
-</script>
+
